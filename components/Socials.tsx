@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { Container } from "postcss"
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 
 const socials = [
@@ -14,7 +13,12 @@ const socials = [
   },
 ] 
 
-const Socials = ({ContainerStyles, iconStyles}) => {
+interface SocialsProps {
+  ContainerStyles?: string;
+  iconStyles?: string;
+}
+
+const Socials: React.FC<SocialsProps> = ({ContainerStyles, iconStyles}) => {
   return (
     <div className={ContainerStyles}>
       {socials.map((item, index) =>{
