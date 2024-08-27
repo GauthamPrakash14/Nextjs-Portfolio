@@ -85,10 +85,9 @@ const projects = [
 
 const Work = () => {
   
-  const [project, setProject ] = useState(projects[0]);
+  const [project, setProject] = useState(projects[0]);
 
   const handleSlideChange = (swiper: SwiperType) => {
-
     const currentIndex = swiper.activeIndex;
     setProject(projects[currentIndex]);
   }
@@ -122,30 +121,28 @@ const Work = () => {
               </ul>
               <div className="border border-white/20"></div>
               <div className="flex items-center gap-4">
-                <Link href={project.live} target="_blank">
-                  <TooltipProvider delayDuration={100}>
+                <TooltipProvider delayDuration={100}>
+                  <Link href={project.live} target="_blank">
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group capitalize">
                         <BsArrowUpRight className="text-white text-3xl group-hover:text-accent"/>
                       </TooltipTrigger>
-                      <TooltipContent>
+                      <TooltipContent className="capitalize">
                         <p>Live project</p>
                       </TooltipContent>
                     </Tooltip>
-                  </TooltipProvider>
-                </Link>
-                <Link href={project.github} target="_blank">
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsGithub className="text-white text-3xl group-hover:text-accent"/>
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>Github repository</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
+                  </Link>
+                  <Link href={project.github} target="_blank">
+                      <Tooltip>
+                        <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                          <BsGithub className="text-white text-3xl group-hover:text-accent"/>
+                        </TooltipTrigger>
+                        <TooltipContent className="capitalize">
+                          <p>Github repository</p>
+                        </TooltipContent>
+                      </Tooltip>
+                  </Link>
+                </TooltipProvider>
               </div>
             </div>
           </div>
