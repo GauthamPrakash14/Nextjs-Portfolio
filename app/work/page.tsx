@@ -23,65 +23,7 @@ import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtn from "@/components/WorkSliderBtn";
 
-const projects = [
-  {
-    num: '01',
-    category: 'frontend',
-    title: 'project 1',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem odio placeat minima dolorem ad reiciendis aliquam, autem ut nisi, sunt similique suscipit nostrum expedita odit voluptatem accusantium id voluptas quod.',
-    stack: [
-      {
-        name:'Html 5'
-      },
-      {
-        name: "Css 3"
-      },
-      {
-        name: "JavaScript"
-      }
-    ],
-    image: '/assets/work/thumb1.png',
-    live: "",
-    github: "",
-  },
-  {
-    num: '02',
-    category: 'frontend',
-    title: 'project 2',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem odio placeat minima dolorem ad reiciendis aliquam, autem ut nisi, sunt similique suscipit nostrum expedita odit voluptatem accusantium id voluptas quod.',
-    stack: [
-      {
-        name:'Next.js'
-      },
-      {
-        name: "Tailwind.css"
-      },
-      {
-        name: "Node.js"
-      }
-    ],
-    image: '/assets/work/thumb2.png',
-    live: "",
-    github: "",
-  },
-  {
-    num: '03',
-    category: 'frontend',
-    title: 'project 3',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem odio placeat minima dolorem ad reiciendis aliquam, autem ut nisi, sunt similique suscipit nostrum expedita odit voluptatem accusantium id voluptas quod.',
-    stack: [
-      {
-        name:'Next.js'
-      },
-      {
-        name: "Tailwind.css"
-      },
-    ],
-    image: '/assets/work/thumb3.png',
-    live: "",
-    github: "",
-  },
-];
+import projects from '@/public/assets/projects.json'
 
 const Work = () => {
   
