@@ -9,26 +9,26 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: '01',
-    title: 'Full-Stack Web Development', 
-    Description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus corrupti repudiandae eaque, aut illo sunt maiores dolor ipsa animi inventore velit, tempora voluptas earum error asperiores est odio minus eveniet!',
+    title: 'Frontend Development', 
+    Description: 'I am an experienced frontend developer with a passion for creating intuitive and visually appealing user interfaces. I am proficient in HTML, CSS, JavaScript, TypeScript, Tailwind CSS, and modern frameworks like React.js and Next.js. My expertise includes using state management tools (Redux, Context API), and task runners like Webpack. I am also skilled in version control with Git, ensuring efficient and collaborative development workflows. My focus is on building responsive, high-performance web applications that deliver seamless user experiences.',
     href: "",
   },
   {
     num: '02',
-    title: 'Infrastructure Management', 
-    Description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus corrupti repudiandae eaque, aut illo sunt maiores dolor ipsa animi inventore velit, tempora voluptas earum error asperiores est odio minus eveniet!',
+    title: 'Backend Development', 
+    Description: 'I specialize in backend development, focusing on building secure, scalable, and efficient systems. I work with technologies like Node.js, Express.js, and Python (Django, Flask) as well as databases such as PostgreSQL, MySQL, DynamoDB, and MongoDB. I develop RESTful and GraphQL APIs for smooth data exchange and use Docker and Kubernetes for deployment and scalability. By integrating CI/CD pipelines with tools like Jenkins and Git, I ensure streamlined, reliable workflows. My priority is delivering backend solutions that are robust, performant, and maintainable.',
     href: "",
   },
   {
     num: '03',
-    title: 'Technical Documentation', 
-    Description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus corrupti repudiandae eaque, aut illo sunt maiores dolor ipsa animi inventore velit, tempora voluptas earum error asperiores est odio minus eveniet!',
+    title: 'Data Engineering', 
+    Description: 'I specialize in data engineering, designing and building scalable pipelines to process and transform large datasets. I work with tools like Apache Spark, Hadoop, and Airflow for data processing and orchestration. I am proficient in ETL development, using Python, SQL, and Apache Kafka for real-time data streaming. My expertise also includes working with cloud data platforms such as AWS Redshift, Google BigQuery, and Azure Data Lake. With a focus on efficiency, scalability, and data integrity, I help organizations turn raw data into actionable insights.',
     href: "",
   },
   {
     num: '04',
-    title: 'Data Engineering', 
-    Description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus corrupti repudiandae eaque, aut illo sunt maiores dolor ipsa animi inventore velit, tempora voluptas earum error asperiores est odio minus eveniet!', 
+    title: 'Infra Management', 
+    Description: 'I specialize in infrastructure management, ensuring scalable, secure, and efficient systems to support applications and services. My expertise includes working with cloud platforms like AWS, Azure, and Google Cloud, as well as managing server provisioning, network configurations, and security protocols. I am skilled in using Infrastructure as Code tools like Terraform and Ansible for automation, and I manage containerized environments with Docker and Kubernetes. With a focus on reliability and scalability, I ensure seamless infrastructure performance for complex, high-demand systems.', 
     href: "",
   },
 ]
@@ -56,7 +56,6 @@ const Services = () => {
                     href={service.href}
                     className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent 
                     transition-all duration-500 flex justify-center items-center hover:-rotate-45"
-                    target="_blank"
                   >
                     <BsArrowDownRight className="text-primary text-3xl"/>
                   </Link>
