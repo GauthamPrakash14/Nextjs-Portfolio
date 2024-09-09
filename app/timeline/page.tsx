@@ -11,7 +11,7 @@ import {
   FaAws
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs, SiTypescript, SiExpress, SiPostman, SiMongodb, SiPython, SiDjango, SiAwslambda } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiTypescript, SiExpress, SiPostman, SiMongodb, SiPython, SiDjango, SiAwslambda, SiPostgresql } from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Tooltip,
@@ -26,7 +26,7 @@ import { motion } from "framer-motion";
 const about = {
 
   title: "About me",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquid hic tempora ex alias sequi ipsum fugiat!",
+  description: "Please use the following information to get in touch.",
   info: [
     {
       fieldName: "Name",
@@ -58,7 +58,7 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My experience',
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquid hic tempora ex alias sequi ipsum fugiat!",
+  description: "I have over 2 years of industry experience, gaining valuable knowledge and hands-on expertise in developing and managing scalable systems. My work has enhanced my skills in building efficient applications, managing infrastructure, and ensuring seamless integration across various technologies.",
   items: [
     {
       company: "INRIX UK Ltd.",
@@ -76,7 +76,7 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My education',
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquid hic tempora ex alias sequi ipsum fugiat!",
+  description: "I hold 2 degress in computer science. My education provided a strong foundation in Computer Science, equipping me with essential skills and knowledge in Software Development and Engineering, which I apply in my professional work.",
   items: [
     {
       institution: "University Of Leicester",
@@ -93,7 +93,7 @@ const education = {
 
 const skills = {
   title: "My Skills",
-  descrition: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquid hic tempora ex alias sequi ipsum fugiat!",
+  descrition: "I have developed a diverse skill set in Software Engineering, including expertise in React.js, Node.js etc, Tools like Postman, Docker etc, and programming languages like JavaScript, TypeScript, Python. My skills encompass Problem solving, Analytical skills, allowing me to tackle complex challenges and deliver high-quality solutions. These competencies are applied effectively in my professional projects.",
   skillList: [
     {
       icon: <FaHtml5/>,
@@ -142,6 +142,10 @@ const skills = {
     {
       icon: <SiPostman/>,
       name: 'Postman'
+    },
+    {
+      icon: <SiPostgresql/>,
+      name: 'MongoDB'
     },
     {
       icon: <SiMongodb/>,

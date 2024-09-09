@@ -47,7 +47,7 @@ const Contact = () => {
             >
               <h3 className="text-4xl text-accent">Let`s work together</h3>
               <p className="text-white/60 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi consequatur quibusdam corporis, rem perspiciatis maxime sapiente eum voluptatibus incidunt sit cum officiis et distinctio totam. Dolor consequuntur a ullam porro.
+                With a strong background in Software development and Engineering, I bring expertise in Key Tools and Technologies and a commitment to delivering high-quality solutions. Whether you`re looking to build innovative applications, streamline infrastructure, or harness the power of data, I offer a proactive approach and a dedication to achieving results. Let`s combine our strengths and turn your vision into reality. Reach out to me using the following form or get in touch to discuss how we can work together to create impactful solutions and drive success in your projects.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="firstname" placeholder="Firstname" name="firstname"/>
