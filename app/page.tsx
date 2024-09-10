@@ -18,14 +18,16 @@ const Home = () => {
               proficient in various programming languages and technologies.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2 hover:bg-accent"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl"/>
-              </Button>
+              <a href="./assets/resume/Gautham-Prakash-CV.pdf" download="Gautham-Prakash-CV.pdf">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2 hover:bg-accent"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl"/>
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Socials 
                   ContainerStyles="flex gap-6" 
