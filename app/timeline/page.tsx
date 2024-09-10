@@ -42,7 +42,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "gauthampraksh236@gmail.com",
+      fieldValue: "gauthampraksh0909@gmail.com",
     },
     {
       fieldName: "Country",
