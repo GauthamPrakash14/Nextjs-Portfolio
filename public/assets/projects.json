@@ -2,58 +2,61 @@
     {
       "num": "01",
       "category": "frontend",
-      "title": "project 1",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem odio placeat minima dolorem ad reiciendis aliquam, autem ut nisi, sunt similique suscipit nostrum expedita odit voluptatem accusantium id voluptas quod.",
+      "title": "Mortgage Calculator",
+      "description": "Developed a simple mortgage calculator app using React.js, TailwindCSS. Basic concepts of React js such as Components, Hooks and Styling are covered in this project.",
       "stack": [
         {
-          "name": "Html 5"
-        },
-        {
-          "name": "Css 3"
-        },
-        {
           "name": "JavaScript"
+        },
+        {
+          "name": "Reactjs"
+        },
+        {
+          "name": "TailwindCSS"
         }
       ],
       "image": "/assets/work/thumb1.png",
-      "live": "",
-      "github": ""
+      "live": "https://mortgage-calculator-psi-lilac.vercel.app/",
+      "github": "https://github.com/GauthamPrakash14/Mortgage-Calculator"
     },
     {
       "num": "02",
       "category": "frontend",
-      "title": "project 2",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem odio placeat minima dolorem ad reiciendis aliquam, autem ut nisi, sunt similique suscipit nostrum expedita odit voluptatem accusantium id voluptas quod.",
+      "title": "Weather App",
+      "description": "Built a responsive weather app using React.js, HTML5, and CSS, displaying real-time weather data from OpenWeatherMap API.",
       "stack": [
         {
-          "name": "Next.js"
+          "name": "HTML5"
         },
         {
-          "name": "Tailwind.css"
+          "name": "CSS"
         },
         {
-          "name": "Node.js"
+          "name": "Reactjs"
         }
       ],
-      "image": "/assets/work/thumb2.png",
-      "live": "",
-      "github": ""
+      "image": "/assets/work/weather-app.png",
+      "live": "https://weather-app-pi-red.vercel.app/",
+      "github": "https://github.com/GauthamPrakash14/weather-app"
     },
     {
       "num": "03",
       "category": "frontend",
-      "title": "project 3",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem odio placeat minima dolorem ad reiciendis aliquam, autem ut nisi, sunt similique suscipit nostrum expedita odit voluptatem accusantium id voluptas quod.",
+      "title": "Responsive Search bar",
+      "description": "Developed a basic responsive search bar that gives instant suggestions on what text you input inside the search bar. Used Reactjs, CSS, and JavaScript for this project.",
       "stack": [
         {
-          "name": "Next.js"
+          "name": "HTML"
         },
         {
-          "name": "Tailwind.css"
+          "name": "CSS"
+        },
+        {
+          "name": "Reactjs"
         }
       ],
-      "image": "/assets/work/thumb3.png",
-      "live": "",
-      "github": ""
+      "image": "/assets/work/Responsive-searchbar.png",
+      "live": "https://responsive-search-bar.vercel.app/",
+      "github": "https://github.com/GauthamPrakash14/responsive-search-bar"
     }
   ]
